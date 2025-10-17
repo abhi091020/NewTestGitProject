@@ -8,7 +8,7 @@ export default function Login() {
       <input
         type="text"
         placeholder="username"
-        value="{username}"
+        value=""
         onChange={(e) => setUsername(e.target.value)}
       />
     </div>
