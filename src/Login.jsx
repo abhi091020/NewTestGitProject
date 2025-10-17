@@ -5,6 +5,12 @@ export default function Login() {
   return (
     <div>
       <h1>Login Form</h1>
+      <input
+        type="text"
+        placeholder="username"
+        value="{username}"
+        onChange={(e) => setUsername(e.target.value)}
+      />
     </div>
   );
 }
